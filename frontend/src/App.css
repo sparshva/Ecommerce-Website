@@ -1,0 +1,1159 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  /* background-color: #f0f7fd; */
+}
+
+body {
+  /* background-color: #eaedf6; */
+  background-color: #f0f7fd;
+  /* background-color: black; */
+}
+
+.homepage {
+  background-color: #f0f7fd;
+}
+
+/***********************************************************Header******************************************************************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-1 {
+  width: 35%;
+  /* border-top: 1px solid black; */
+}
+
+.nav-1 > img {
+  width: 37%;
+  height: 5vmax;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 30px; */
+  border-radius: 10px;
+  margin-left: 8vmax;
+}
+
+.nav-22 {
+  /* width: 60%; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-left: 1.5vmax; */
+  margin-right: 5vmax;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.nav-2-element {
+  text-decoration: none;
+  padding: 0.5vmax;
+  font: 100 1.25vmax serif;
+  background-color: white;
+  border-radius: 10px;
+  width: 115px;
+  text-align: center;
+}
+
+.nav-2-links {
+  text-decoration: none;
+  color: #4b5563;
+}
+
+.nav-3 {
+  /* margin-left: 0vmax; */
+  /* border: 1px solid black; */
+  /* border: 1px solid green; */
+  /* margin-right: 3vmax; */
+  width: 13%;
+  margin-left: 8vmax;
+  /* height: 10vmax; */
+  /* margin-top: 0.5vmax; */
+  /* position: absolute; */
+}
+
+.profile {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  /* background-color: black; */
+  align-items: center;
+  justify-content: space-around;
+  /* margin-left: 1.6vmax; */
+  /* border: 1px solid yellow; */
+}
+
+.flexit {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination > li > a:visited {
+  background-color: #0ea5e9;
+  color: black;
+}
+
+.pagination > li > a:active {
+  background-color: #0ea5e9;
+  color: white;
+}
+
+.page-link {
+  text-decoration: none;
+  outline: none;
+  color: #0ea5e9;
+  /* background-color: #0ea5e9; */
+  border-radius: 5px;
+}
+/* .page-link:visited {
+  color: #fff;
+  background-color: #0ea5e9;
+} */
+
+/* .page-link:active {
+  background-color: #0ea5e9;
+  color: white;
+} */
+
+.pagination {
+  margin: auto;
+  margin-top: 1vmax;
+  margin-bottom: 0.5vmax;
+}
+
+.searchField {
+  width: 42.4%;
+  margin-right: 7.7vmax;
+  /* border: 1px solid green; */
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.searchField > input {
+  width: 80%;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  padding: 0.5vmax 1vmax;
+  /* margin-left: 4.5vmax;
+  margin-top: 1vmax;
+} */
+}
+
+.searchField > input:focus,
+.searchField > input:hover {
+  background-color: white;
+  border: 1px solid #a1a1aa;
+  outline: none;
+}
+
+.searchField > button {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #38bdf8;
+  color: white;
+  width: 15%;
+  font: 100 1.4vmax serif;
+  padding: 5px;
+  /* margin-top: 1vmax; */
+  cursor: pointer;
+  /* margin-right: 2.5vmax;
+  margin-left: 0.5vmax; */
+  border: none;
+}
+
+.searchField > button:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.react-icon1 {
+  font-size: 2.8vmax;
+  padding: 3px;
+  /* margin-right: 3vmax;
+  margin-top: 1.4vmax;
+  margin-bottom: 0.5vmax; */
+}
+.react-icon2 {
+  font-size: 2.8vmax;
+  padding: 3px;
+  /* margin-right: 3vmax;
+  margin-bottom: 0.17vmax; */
+}
+
+.react-icon3 {
+  font-size: 2.8vmax;
+  padding: 3px;
+  /* margin-right: 3vmax;
+  margin-top: 0.7vmax;
+  margin-bottom: 0.5vmax; */
+}
+
+/**************************************************************************************************************************************/
+.image {
+  background-image: url("https://media.istockphoto.com/photos/online-shopping-and-digital-marketing-concept-woman-using-digital-picture-id1250152532?b=1&k=20&m=1250152532&s=170667a&w=0&h=lr-twqBhxoEdzJqVgthp4n5XKyaFzGCN5aDg0YB8HQQ=");
+  width: 99.7%;
+  height: 30vmax;
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  /* filter: blur(3px); */
+  background-blend-mode: darken;
+  /* border-radius: 50px; */
+  /* margin-right: 1vmax; */
+  position: relative;
+
+  /* margin-left: 1vmax; */
+}
+
+.image :first-child {
+  position: absolute;
+  top: 9vmax;
+  left: 6vmax;
+  color: #fff;
+}
+
+.image :last-child {
+  position: absolute;
+  top: 13vmax;
+  left: 6vmax;
+  color: #fff;
+}
+
+.slick-dots {
+  /* width: 19vmax; */
+  /* border: 1px solid black; */
+}
+.slick-dots > li {
+  background-color: #38bdf8;
+}
+
+.carcat {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  height: 20vmax;
+  /* height: 10vmax; */
+  /* background-color: #0ea5e9; */
+  /* border: 1px solid red; */
+  /* margin-top: 1vmax; */
+  /* margin-bottom: 1vmax; */
+}
+
+.carousel {
+  margin-top: 2.5vmax;
+  margin-left: 0.4vmax;
+
+  /* display: flex;
+  justify-content: space-between; */
+  /* border: 1px solid green; */
+}
+
+.filter {
+  /* margin-left: 3vmax;
+  margin-top: 2vmax; */
+  background-color: #fff;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  /* position: sticky; */
+  /* position: relative; */
+  /* top: -1vmax; */
+  /* position: relative;
+  top: 0; */
+}
+
+.slider {
+  position: sticky;
+  top: 2vmax;
+  /* position: sticky; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  width: 90%;
+  margin-top: 3vmax;
+  margin-left: 2vmax;
+  margin-right: 2vmax;
+  margin-bottom: 2vmax;
+  /* border: 1px solid black; */
+}
+
+.slider > h4,
+.category > h4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5vmax;
+  font: 500 1.8vmax serif;
+}
+
+.category {
+  position: sticky;
+  top: 11vmax;
+  /* position: static; */
+  /* border-top: 1px solid grey; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  width: 90%;
+  margin-top: 3vmax;
+  margin-left: 6vmax;
+  margin-right: 2vmax;
+  margin-bottom: 2vmax;
+}
+.categoryList > h4 {
+  margin-bottom: 1.5vmax;
+  font: 500 1.3vmax "Roboto", sans-serif;
+}
+
+.footer {
+  background-color: white;
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 15vmax;
+  padding: 1vmax;
+  margin: 2.5vmax auto;
+  margin-bottom: 0vmax;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  display: flex;
+
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.home {
+  display: flex;
+}
+
+.productListTable {
+  background-color: tomato;
+}
+
+.productCard {
+  display: flex;
+
+  text-decoration: none;
+  justify-content: center;
+  /* width: 18vmax; */
+  height: 10vmax;
+  margin: 1vmax;
+  transition: all 0.5s;
+  background-color: white;
+  /* padding-bottom: 0.5vmax; */
+  /* background-color: rgba(255, 251, 255, 0.1); */
+  /* background-color: #eaedf6; */
+  /* border: 3px 3px 5px grey, -0.4em 0 0.4em white; */
+  border-radius: 5px;
+
+  /* box-shadow: 3px 3px 5px grey, -0.4em 0 0.2em white; */
+}
+
+.productCardimage {
+  /* border: 1px solid black; */
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  /* margin: 0 auto; */
+  /* position: relative; */
+  /* top: -1vmax; */
+  /* margin-bottom: 1vmax; */
+}
+
+.productCardimage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.productCardinfo {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  width: 50%;
+  /* border: 1px solid green; */
+}
+
+.productCardSpan {
+  margin: 0.3vmax;
+  /* font: 300 1vmax "Roboto"; */
+  color: tomato;
+  font: 300 1.3vmax "Roboto";
+}
+
+.productCardratings {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  /* border: black; */
+  /* box-shadow: 0.1em 0.1em 0.2em grey; */
+  /* background-color: tomato; */
+  /* width: 80%; */
+
+  /* border-radius: 30px; */
+  /* text-align: center; */
+
+  /* margin-left: 1.3vmax; */
+}
+
+.para > p {
+  font-family: "Roboto";
+  font-size: 1.5vmax;
+  text-align: center;
+  margin: 0.3vmax;
+  color: #4b5563;
+  /* margin: auto; */
+  /* margin-top: 2vmax; */
+}
+
+.productCardinfo > span {
+  color: #4b5563;
+  font-size: 1.5vmax;
+  margin: 0.3vmax;
+  /* text-align: center; */
+}
+
+.productCard:hover {
+  box-shadow: 0px 0px 5px rgba(15, 15, 15, 0.25);
+  transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 600px) {
+  .productCard > p {
+    font-size: 1.7vmax;
+  }
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+  .productCard > span {
+    font-size: 1.5vmax;
+  }
+  .productCard > div > span {
+    margin: 0 0.5vmax;
+  }
+}
+
+.productDetails {
+  background-color: #f0f7fd;
+  width: 100vw;
+  max-width: 100%;
+  padding: 6vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.productDetails > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+}
+
+.productDetails > div:last-child {
+  align-items: flex-start;
+}
+
+.CarouselImage {
+  width: 20vmax;
+  border-radius: 10px;
+}
+
+.detailsBlock-1 > h2 {
+  color: #4b5563;
+  font: 600 1.8vmax "Roboto";
+}
+
+.detailsBlock-1 > p {
+  color: #4b5563;
+  font: 300 1vmax cursive;
+}
+
+.detailsBlock-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 70%;
+  padding: 1vmax 0;
+}
+
+.detailsBlock-2 > span {
+  color: tomato;
+  font: 200 0.9vmax cursive;
+  margin-left: 1vmax;
+}
+
+.detailsBlock-3 {
+  width: 70%;
+}
+
+.detailsBlock-3 > h1 {
+  color: rgba(17, 17, 17, 0.8);
+  font: 400 1.5vmax "Franklin";
+  margin: 1vmax 0;
+}
+
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+}
+
+.detailsBlock-3-1-1 > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.detailsBlock-3-1-1 > button:hover {
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+.detailsBlock-3-1-1 > input {
+  border: none;
+  padding: 0.5vmax;
+
+  text-align: center;
+  outline: none;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.greencolor {
+  color: green;
+}
+
+.redcolor {
+  color: red;
+}
+
+.detailsBlock-3-1 > button:last-child {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s;
+  background-color: #38bdf8;
+  font: 500 1vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax;
+  outline: none;
+}
+
+.detailsBlock-3-1 > button:last-child:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.06);
+}
+
+.detailsBlock-3 > p {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1vmax 0;
+  color: rgba(0, 0, 0, 0.6);
+  font: 400 1.3vmax "Roboto";
+  margin: 1vmax 0;
+}
+
+.detailsBlock-4 {
+  color: #4b5563;
+  font: 500 1.2vmax sans-serif;
+}
+
+.detailsBlock-4 > p {
+  color: #4b5563;
+  font: 300 1.2vmax sans-serif;
+}
+
+.submitReview {
+  border: none;
+  font: 500 1vmax "Roboto";
+  background-color: #38bdf8;
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.submitReview:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.06);
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitDialogTextArea {
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.reviewsHeading {
+  color: #4b5563;
+  font: 500 1.4vmax;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+.reviewCard {
+  flex: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(56, 56, 56, 0.17);
+  width: 30vmax;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+
+.reviewCard > p {
+  color: rgba(0, 0, 0, 0.84);
+  font: 600 0.9vmax;
+}
+
+.reviewCard > span {
+  color: rgba(0, 0, 0, 0.44);
+  font: 300 0.8vmax cursive;
+}
+
+.noReviews {
+  font: 400 1.3vmax "Gill Sans";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.productpage {
+  display: flex;
+}
+
+.productsHeading {
+  margin: 3vmax auto;
+  width: 15vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+  padding: 1vmax;
+  text-align: center;
+  font: 500 2.5vmax "Roboto";
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5vmax;
+  justify-content: center;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+}
+
+.loading > div {
+}
+
+/******************************************************************LOGIN**********************************************************/
+.header {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid pink; */
+  background-color: #f0f7fd;
+  /* height: 140vmax; */
+}
+
+.headerdiv {
+  /* border: 1px solid black; */
+  /* height: 5vmax; */
+  margin: 0;
+  padding: 0;
+}
+
+.signin-heading {
+  /* background: url("data:image/jpeg;base64,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")
+    rgba(0, 0, 0, 0.6); */
+  /* background: url("https://media.istockphoto.com/photos/shopping-online-concept-parcel-or-paper-cartons-with-a-shopping-cart-picture-id1249219777?b=1&k=20&m=1249219777&s=170667a&w=0&h=0dXNU-fjD9aOMmrvlppQhJ9gOqnW9dslKFdYLQN9rnk=")
+    rgba(0, 0, 0, 0.6); */
+  background: url("https://c1.wallpaperflare.com/preview/219/145/124/ecommerce-selling-online-online-sales-e-commerce.jpg")
+    rgba(0, 0, 0, 0.7);
+  /* position: relative;
+  top: -1vmax;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  /* width: 100%; */
+
+  background-blend-mode: darken;
+  background-position: center center;
+  height: 42.3vmax;
+  /* z-index: -1; */
+  /* border: 5px solid black; */
+}
+
+.signup-heading {
+  background: url("https://c1.wallpaperflare.com/preview/219/145/124/ecommerce-selling-online-online-sales-e-commerce.jpg")
+    rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid green;
+  height: 42.3vmax;
+}
+
+.Signup,
+.Signin {
+  margin: 5vmax auto;
+  /* width: 52%; */
+  background: transparent;
+  box-sizing: border-box;
+  box-shadow: 0 0 25px rgb(255, 255, 255);
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); */
+  border-radius: 10px;
+  padding: 1vmax 2vmax;
+  color: #fff;
+}
+
+.divideinputs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.5vmax;
+  margin-top: 1.5vmax;
+}
+
+.Signup {
+  width: 55%;
+  height: 33vmax;
+  /* margin-bottom: 0; */
+  /* padding: 1vmax 2vmax; */
+}
+
+.Signin {
+  width: 35%;
+  height: 30vmax;
+}
+
+.signup-box,
+.signin-box {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.signup-icons,
+.signin-icons {
+  font-size: 1.8vmax;
+  position: relative;
+  top: 0.5vmax;
+  margin-right: 0.8vmax;
+}
+
+.Signup > h2,
+.Signin > h2 {
+  margin: 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.Signin > form,
+.Signup > form {
+  margin-top: 3vmax;
+}
+
+.signup-box > input,
+.signin-box > input {
+  width: 100%;
+  /* padding: 10px 0; */
+  font-size: 16px;
+  color: inherit;
+  margin-bottom: 30px;
+  margin-left: 1vmax;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 0.5vmax 1vmax;
+  outline: none;
+  background-color: transparent;
+  border-radius: 2px;
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1); */
+}
+
+.signin,
+.signup {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  /* position: relative;
+  top: 1.3vmax; */
+  color: #fff;
+  font-size: 1.2vmax;
+  /* border: 1px solid red; */
+}
+
+.signup-email {
+  width: 90%;
+  /* border: 1px solid pink; */
+  margin-left: 2.4vmax;
+}
+
+.signin:hover {
+  color: #38bdf8;
+  /* background-color: tomato; */
+}
+
+.signinbutton {
+  /* height: 11vmax; */
+  display: flex;
+  width: 90%;
+  /* border: 1px solid green; */
+  /* align-items: center; */
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.signlinks {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  height: 5vmax;
+  align-items: center;
+}
+
+.signup-align,
+.signin-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.signup-box > label,
+.signin-box > label {
+  width: 20%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  margin-right: 0.1vmax;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button,
+.signin-button {
+  color: white;
+  background-color: #38bdf8;
+  width: 18%;
+  height: 2.5vmax;
+  border-radius: 10px;
+  outline: none;
+  /* margin: 0 auto; */
+  margin-bottom: 2vmax;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 20px;
+  font-weight: 10;
+  padding: 0.2vmax;
+}
+
+.signup-button:hover,
+.signin-button:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.1);
+}
+
+/**************************************************************Profile********************************************************/
+.profile-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vmax auto;
+  /* border: 1px solid black; */
+  width: 51.5%;
+  /* background-color: white; */
+  border-radius: 20px;
+  padding: 2vmax;
+  color: rgba(48, 48, 48);
+
+  background: #e0f2fe;
+
+  /* border-radius: 40px; */
+  /* height: 25vmax; */
+  box-shadow: 14px 14px 20px white, -14px -14px 20px white;
+}
+
+.profile-info {
+  /* border: 1px solid yellow; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px solid yellow; */
+}
+
+/* .profile-info > div {
+  padding: 1vmax;
+} */
+.profile-info > div > h5 {
+  font: 100 1.5vmax serif;
+  color: #374151;
+  margin-left: 0.5vmax;
+}
+
+.profile-info > div > h6 {
+  font: 100 1.2vmax sans-serif;
+  color: #4b5563;
+  margin-bottom: 2vmax;
+  border-bottom: 1px solid #374151;
+  padding: 10px;
+
+  /* padding: 1px; */
+}
+
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.profile-edit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px solid green; */
+  height: 14vmax;
+  margin: auto;
+  /* margin-top: 1vmax; */
+  /* margin-left: 2.39vmax; */
+}
+.profile-edit-button-1,
+.profile-edit-button-2,
+.change-password-button {
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #38bdf8;
+  color: white;
+  width: 100%;
+  font: 100 1.4vmax "Roboto";
+  padding: 5px;
+  /* margin-left: 2.5vmax; */
+  cursor: pointer;
+
+  border: none;
+}
+.profile-edit-button-1:hover,
+.profile-edit-button-2:hover,
+.change-password-button:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.change-password-button {
+  font: 100 1.5vmax "Roboto";
+  width: 60%;
+  /* border: 1px solid black; */
+}
+
+.profile-edit-button-2 {
+  margin-top: 3vmax;
+  /* margin-bottom: 1vmax; */
+}
+.editmyprofileform {
+  /* border: 1px solid black; */
+  width: 100;
+}
+
+.editmyprofile > h2 {
+  width: 25%;
+  margin: auto;
+  color: #38bdf8;
+  font: 300 2.2rem "Roboto";
+  text-align: center;
+  margin-bottom: 1vmax;
+  padding: 1vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+}
+
+.editmyprofile {
+  background: #e0f2fe;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 8vmax;
+  width: 40%;
+  height: auto;
+  box-shadow: 14px 14px 20px white, -14px -14px 20px white;
+  /* border: 1px solid black; */
+}
+
+.editprofile-align {
+  /* border: 1px solid black; */
+  display: flex;
+  /* width: 150%; */
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 2vmax;
+}
+
+.editprofile-icons {
+  font-size: 2.2vmax;
+}
+
+.editprofile-box {
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.editprofile-box > label {
+  color: grey;
+  margin-right: 1.5vmax;
+  font: 500 1.3vmax "Roboto";
+  color: #374151;
+}
+.editprofile-box > input {
+  outline: none;
+  text-decoration: none;
+  padding: 3.5px 10px;
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+}
+
+.editmypassword {
+  background: #e0f2fe;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 8vmax;
+  width: 50%;
+  height: auto;
+  box-shadow: 14px 14px 20px white, -14px -14px 20px white;
+}
+
+.editmypassword > h2 {
+  width: 25%;
+  margin: auto;
+  color: #38bdf8;
+  font: 300 2.2rem "Roboto";
+  text-align: center;
+  margin-bottom: 1vmax;
+  padding: 1vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+}
+
+.editpassword-align {
+  /* border: 1px solid black; */
+  display: flex;
+  /* width: 150%; */
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 2vmax;
+}
+
+.editpassword-icons {
+  font-size: 2.2vmax;
+}
+
+.editpassword-box {
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.editpassword-box > label {
+  color: grey;
+  margin-right: 1.5vmax;
+  font: 500 1.3vmax "Roboto";
+  color: #374151;
+}
+.editpassword-box > input {
+  outline: none;
+  text-decoration: none;
+  padding: 3.5px 10px;
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+}
+/********************************************************************************************************************************/
