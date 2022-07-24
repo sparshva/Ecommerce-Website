@@ -16,7 +16,7 @@
 
 # User SignUp Page
 
-![Employee data](./Readme-images/SignUp.png?raw=true "Employee Data title")
+![Employee data](./Readme-images/Signup.png?raw=true "Employee Data title")
 
 &nbsp;
 
