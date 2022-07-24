@@ -10,43 +10,31 @@
 
 ![Employee data](./Readme-images/SigninError.png?raw=true "Employee Data title")
 
-&nbsp;
-
 # User SignUp Page
 
 ![Employee data](./Readme-images/Signup.png?raw=true "Employee Data title")
 
-&nbsp;
+<!-- &nbsp; -->
 
 # Home Page
 
 ![Employee data](./Readme-images/Home.jpeg?raw=true "Employee Data title")
 
-&nbsp;
-
 # All Products Page
 
 ![Employee data](./Readme-images/Products.jpeg?raw=true "Employee Data title")
-
-&nbsp;
 
 # Single Product Page
 
 ![Employee data](./Readme-images/Product.jpeg?raw=true "Employee Data title")
 
-&nbsp;
-
 # Cart Page
 
 ![Employee data](./Readme-images/Cart.jpeg?raw=true "Employee Data title")
 
-&nbsp;
-
 # Shipping Info Page
 
 ![Employee data](./Readme-images/ShippingInfo.jpeg?raw=true "Employee Data title")
-
-&nbsp;
 
 # Order Summary Page
 
